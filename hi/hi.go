@@ -2,10 +2,10 @@ package main
  
 import (
     "greeting"
-    "deutsch"
+    #"greeting/deutsch"
 )
 func main(){
     greeting.Hello()
     greeting.Hi()
-    deutsch.Hallo()
+    #deutsch.Hallo()
 }
